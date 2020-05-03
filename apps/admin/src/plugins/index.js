@@ -3,7 +3,7 @@ import adminPlugins from "@webiny/app-admin/plugins";
 import i18nPlugins from "@webiny/app-i18n/admin/plugins";
 import securityPlugins from "@webiny/app-security/admin/plugins";
 import pageBuilderPlugins from "@webiny/app-page-builder/admin/plugins";
-import pageBuilderThemePlugins from "@webiny/app-page-builder-theme";
+import rundotTheme from "rundot-theme";
 import formBuilderPlugins from "@webiny/app-form-builder/admin/plugins";
 import formBuilderPageBuilderPlugins from "@webiny/app-form-builder/page-builder/admin/plugins";
 import formBuilderTheme from "@webiny/app-form-builder-theme";
@@ -21,7 +21,7 @@ const plugins = [
     i18nPlugins,
     securityPlugins,
     pageBuilderPlugins,
-    pageBuilderThemePlugins(),
+    rundotTheme(),
     formBuilderPlugins,
     formBuilderPageBuilderPlugins,
     formBuilderTheme(),

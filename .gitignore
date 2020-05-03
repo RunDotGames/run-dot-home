@@ -9,3 +9,5 @@ yarn-error.log
 .serverless
 build
 build-ssr
+/packages/rundot-theme/**/*.js*
+/packages/rundot-theme/**/*.d.*

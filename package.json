@@ -2,7 +2,7 @@
 	"private": true,
 	"workspaces": {
 		"packages": [
-			"apps/*"
+			"apps/*", "packages/rundot-theme"
 		]
 	},
 	"dependencies": {
@@ -26,16 +26,16 @@
 		"@webiny/http-handler-index": "^2.0.4",
 		"@webiny/http-handler-ssr": "^2.2.0",
 		"@webiny/serverless-api-gateway": "^3.0.1",
-		"@webiny/serverless-app": "^3.0.1",
 		"@webiny/serverless-apollo-gateway": "^3.0.1",
 		"@webiny/serverless-apollo-service": "^3.0.2",
+		"@webiny/serverless-app": "^3.0.1",
 		"@webiny/serverless-aws-cloudfront": "^3.0.3",
 		"@webiny/serverless-aws-cognito-user-pool": "^3.0.1",
 		"@webiny/serverless-aws-lambda": "^2.0.1",
 		"@webiny/serverless-db-proxy": "^3.1.1",
 		"@webiny/serverless-files": "^3.1.0",
-		"@webiny/serverless-page-builder": "^3.0.4",
-		"@webiny/serverless-form-builder": "^3.0.2"
+		"@webiny/serverless-form-builder": "^3.0.2",
+		"@webiny/serverless-page-builder": "^3.0.4"
 	},
 	"devDependencies": {
 		"prettier": "^1.18.2",

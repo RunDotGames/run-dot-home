@@ -1,5 +1,5 @@
 import pageBuilderPlugins from "@webiny/app-page-builder/site/plugins";
-import pageBuilderTheme from "@webiny/app-page-builder-theme";
+import rundotTheme from "rundot-theme";
 import pageBuilderUseSsrCacheTagsPlugins from "@webiny/app-page-builder/site/plugins/useSsrCacheTags";
 import { fileUploadPlugin, imagePlugin } from "@webiny/app/plugins";
 import cookiePolicyPlugins from "@webiny/app-cookie-policy/render";
@@ -16,7 +16,7 @@ const plugins = [
     imagePlugin,
     pageBuilderPlugins,
     pageBuilderUseSsrCacheTagsPlugins,
-    pageBuilderTheme(),
+    rundotTheme(),
     cookiePolicyPlugins,
     typeformPlugins,
     mailchimpPlugins,

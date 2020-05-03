@@ -3,6 +3,7 @@
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
+		"rundot-theme": "1.0.0",
 		"@webiny/app": "^3.0.6",
 		"@webiny/app-admin": "^3.0.8",
 		"@webiny/app-cookie-policy": "^3.0.13",
