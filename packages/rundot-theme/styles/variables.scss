@@ -1,0 +1,43 @@
+// typography
+$webiny-rundot-theme-typography-primary-font-family: "IBM Plex Sans, sans-serif" !default;
+$webiny-rundot-theme-typography-secondary-font-family: "Lato, sans-serif" !default;
+
+// colors
+$webiny-rundot-theme-primary: #01CB63 !default;
+$webiny-rundot-theme-secondary: #FF0AFF !default;
+$webiny-rundot-theme-background: #c7c7c7 !default;
+$webiny-rundot-theme-surface: #ffffff !default;
+
+$webiny-rundot-theme-on-primary: #ffffff !default;
+$webiny-rundot-theme-on-secondary: #ffffff !default;
+$webiny-rundot-theme-on-surface: #000000 !default;
+$webiny-rundot-theme-on-background: #131313 !default;
+
+$webiny-rundot-theme-text-primary: rgb(10, 10, 10) !default;
+$webiny-rundot-theme-text-secondary: #616161 !default;
+$webiny-rundot-theme-color-border: #e8ebee !default;
+
+// media queries
+$webiny-rundot-theme-mobile-width: 480px;
+$webiny-rundot-theme-tablet-width: 768px;
+$webiny-rundot-theme-desktop-width: 1200px;
+
+// elements
+$webiny-rundot-theme-border-radius: 2px;
+
+body{
+  --webiny-theme-typography-primary-font-family: #{$webiny-rundot-theme-typography-primary-font-family};
+  --webiny-theme-typography-secondary-font-family: #{$webiny-rundot-theme-typography-secondary-font-family};
+  --webiny-theme-color-primary: #{$webiny-rundot-theme-primary};
+  --webiny-theme-color-secondary: #{$webiny-rundot-theme-secondary};
+  --webiny-theme-color-background: #{$webiny-rundot-theme-background};
+  --webiny-theme-color-surface: #{$webiny-rundot-theme-surface};
+  --webiny-theme-color-on-primary: #{$webiny-rundot-theme-on-primary};
+  --webiny-theme-color-on-secondary: #{$webiny-rundot-theme-on-secondary};
+  --webiny-theme-color-on-surface: #{$webiny-rundot-theme-on-surface};
+  --webiny-theme-color-on-background: #{$webiny-rundot-theme-on-background};
+  --webiny-theme-color-text-primary: #{$webiny-rundot-theme-text-primary};
+  --webiny-theme-color-text-secondary: #{$webiny-rundot-theme-text-secondary};
+  --webiny-theme-color-border: #{$webiny-rundot-theme-color-border};
+  --webiny-theme-border-radius: #{$webiny-rundot-theme-border-radius};
+}
